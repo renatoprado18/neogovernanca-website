@@ -139,3 +139,9 @@
 - [x] Add phone: +55 (11) 98415-3337
 - [x] Update bio to mention ~30 years experience
 - [x] Add AI Board Advisory expertise
+
+## Remove PDF Page References
+- [x] Find and remove all /images/page-*.png references
+- [x] Replace with PowerPoint images or remove sections
+- [x] Verify all images are from PowerPoint extraction
+- [x] Clean up unused PDF page images from public folder

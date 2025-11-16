@@ -4,14 +4,6 @@ import { Button } from "@/components/ui/button";
 export default function ContactSection() {
   return (
     <section id="contact" className="relative py-20 md:py-32 bg-gradient-to-br from-primary via-primary to-secondary text-primary-foreground overflow-hidden">
-      {/* Background Image Overlay */}
-      <div className="absolute inset-0 opacity-10">
-        <img
-          src="/images/page-11.png"
-          alt="Sala de reunião"
-          className="w-full h-full object-cover"
-        />
-      </div>
 
       <div className="container px-4 relative z-10">
         <div className="max-w-4xl mx-auto text-center">

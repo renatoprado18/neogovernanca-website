@@ -49,9 +49,9 @@ export default function HeroSection() {
         <div className="mb-12 flex justify-center">
           <div className="relative w-full max-w-md aspect-square">
             <img
-              src="/images/page-01.png"
+              src="/images/pptx/image8.png"
               alt="Giroscópio NeoGovernança"
-              className="w-full h-full object-contain mix-blend-multiply"
+              className="w-full h-full object-contain"
             />
           </div>
         </div>
