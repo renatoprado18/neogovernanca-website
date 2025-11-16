@@ -29,7 +29,7 @@ export default function ContactSection() {
               variant="secondary"
               className="w-full sm:w-auto gap-3 text-lg font-semibold"
               onClick={() =>
-                window.open("https://www.linkedin.com/in/renatofap/", "_blank")
+                window.open("https://www.linkedin.com/in/renatoaprado", "_blank")
               }
             >
               <Linkedin className="w-6 h-6" />
@@ -42,7 +42,7 @@ export default function ContactSection() {
               className="w-full sm:w-auto gap-3 text-lg font-semibold"
               onClick={() =>
                 window.open(
-                  "https://wa.me/5511999999999?text=Olá,%20gostaria%20de%20saber%20mais%20sobre%20NeoGovernança",
+                  "https://wa.me/5511984153337?text=Olá,%20gostaria%20de%20saber%20mais%20sobre%20NeoGovernança",
                   "_blank"
                 )
               }
@@ -56,7 +56,7 @@ export default function ContactSection() {
               variant="secondary"
               className="w-full sm:w-auto gap-3 text-lg font-semibold"
               onClick={() =>
-                (window.location.href = "mailto:contato@neogovernanca.com.br")
+                (window.location.href = "mailto:renato@almeida-prado.com")
               }
             >
               <Mail className="w-6 h-6" />

@@ -130,3 +130,12 @@
 - [ ] Create Vercel project
 - [ ] Deploy website to Vercel
 - [ ] Configure custom domain (if needed)
+
+## Author Information Update
+- [x] Update author title to include "AI Thinker" and "Co-fundador 10XMentorAI"
+- [x] Add 10XMentorAI to expertise
+- [x] Update LinkedIn URL to linkedin.com/in/renatoaprado
+- [x] Add email: renato@almeida-prado.com
+- [x] Add phone: +55 (11) 98415-3337
+- [x] Update bio to mention ~30 years experience
+- [x] Add AI Board Advisory expertise

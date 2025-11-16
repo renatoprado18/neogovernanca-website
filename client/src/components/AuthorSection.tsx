@@ -1,12 +1,12 @@
-import { Lightbulb, Target, Cpu, Rocket, Users, Building } from "lucide-react";
+import { Lightbulb, Brain, Sparkles, TrendingUp, Leaf, Heart } from "lucide-react";
 
 const expertise = [
   { icon: Lightbulb, label: "NeoGovernança" },
-  { icon: Target, label: "Estratégia de Futuro" },
-  { icon: Cpu, label: "Inteligência Artificial" },
-  { icon: Rocket, label: "Novas Tecnologias" },
-  { icon: Users, label: "Liderança Inclusiva" },
-  { icon: Building, label: "Cultura Organizacional" },
+  { icon: Brain, label: "AI Board Advisory" },
+  { icon: Sparkles, label: "IA Generativa" },
+  { icon: TrendingUp, label: "Estratégia & M&A" },
+  { icon: Leaf, label: "ESG & B-Corp" },
+  { icon: Heart, label: "Impacto Social" },
 ];
 
 export default function AuthorSection() {
@@ -34,25 +34,28 @@ export default function AuthorSection() {
             {/* Author Info */}
             <div className="order-1 md:order-2 space-y-8">
               <div>
-                <h3 className="font-display text-3xl md:text-4xl font-bold mb-6">
+                <h3 className="font-display text-3xl md:text-4xl font-bold mb-4">
                   Renato de Faria e Almeida Prado
                 </h3>
+                <p className="text-xl text-secondary-foreground/90 mb-6">
+                  Conselheiro do Futuro | AI Thinker | Co-fundador 10XMentorAI
+                </p>
               </div>
 
               <div className="space-y-4 text-lg text-secondary-foreground/90 leading-relaxed">
                 <p>
-                  Conselheiro. CEO. Fundador.
+                  Quase 30 anos em conselhos, inovação e liderança com propósito.
                 </p>
 
                 <p className="font-semibold text-secondary-foreground">
-                  CCA-IBGC | PFCC-Board Academy
+                  CCA-IBGC | AI on Board - Board Academy
                 </p>
               </div>
 
               {/* Expertise */}
               <div>
                 <h4 className="font-display text-2xl font-bold mb-6">
-                  Expertise para Conselhos
+                  Expertise
                 </h4>
                 <div className="grid grid-cols-2 gap-4">
                   {expertise.map((item, index) => {
