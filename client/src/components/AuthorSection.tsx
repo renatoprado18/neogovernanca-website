@@ -22,11 +22,11 @@ export default function AuthorSection() {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             {/* Author Image */}
             <div className="order-2 md:order-1">
-              <div className="relative aspect-[3/4] rounded-2xl overflow-hidden shadow-2xl">
+              <div className="relative aspect-[4/5] rounded-2xl overflow-hidden shadow-2xl">
                 <img
-                  src="/images/page-02.png"
+                  src="/images/author-renato.jpg"
                   alt="Renato de Faria e Almeida Prado"
-                  className="w-full h-full object-cover"
+                  className="w-full h-full object-cover object-center"
                 />
               </div>
             </div>

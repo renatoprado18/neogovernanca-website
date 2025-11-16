@@ -50,9 +50,16 @@ export default function TripartiteGyroscopeSection() {
           </div>
 
           {/* Content */}
-          <p className="text-center text-3xl md:text-4xl font-display font-bold text-background">
-            Giramos juntos, não contra.
-          </p>
+          <div className="space-y-6 max-w-3xl mx-auto">
+            <p className="text-center text-xl md:text-2xl text-background/90">
+              Esses eixos não estão isolados, nem em conflito.
+              <br />
+              Eles giram juntos, como as peças de um giroscópio.
+            </p>
+            <p className="text-center text-2xl md:text-3xl font-display font-bold text-background">
+              É o giro que sustenta a estabilidade — não a rigidez.
+            </p>
+          </div>
         </div>
       </div>
     </section>

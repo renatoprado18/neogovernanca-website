@@ -102,3 +102,26 @@
 - [x] Reduce gyroscope description
 - [x] Streamline etymology section
 - [x] Tighten author bio further
+
+
+## PowerPoint Integration
+- [ ] Extract all images from PPTX file
+- [ ] Extract all text content from PPTX
+- [ ] Replace website images with PowerPoint images
+- [ ] Update website text with PowerPoint content
+- [ ] Simplify PowerPoint text to direct style
+- [ ] Ensure all slides are represented in website
+
+- [x] Replace author photo with new professional image
+
+## Mobile-First Optimization
+- [ ] Optimize typography for mobile screens
+- [ ] Adjust spacing and padding for mobile
+- [ ] Ensure images scale properly on mobile
+- [ ] Test navigation on mobile devices
+- [ ] Optimize touch targets for mobile interaction
+
+## GitHub Repository
+- [ ] Create GitHub repository for the website
+- [ ] Push all code to GitHub
+- [ ] Configure repository settings

@@ -1,13 +1,19 @@
 export default function ContextSection() {
   return (
-    <section id="context" className="py-20 md:py-32 bg-card">
+    <section id="context" className="py-12 md:py-20 lg:py-32 bg-card">
       <div className="container px-4">
         <div className="max-w-4xl mx-auto">
-          <h2 className="font-display text-4xl md:text-5xl lg:text-6xl font-bold text-card-foreground mb-12 text-center">
-            A governança tradicional
+          <h2 className="font-display text-3xl md:text-4xl lg:text-6xl font-bold text-card-foreground mb-6 md:mb-8 text-center">
+            Um novo tempo exige
             <br />
-            já não basta
+            um novo modelo de liderança
           </h2>
+          
+          <p className="text-lg md:text-xl lg:text-2xl text-card-foreground/80 text-center mb-8 md:mb-12 max-w-3xl mx-auto">
+            Não estamos apenas em uma era de mudanças.
+            <br />
+            Estamos vivendo uma mudança de era.
+          </p>
 
           {/* Logo Symbol */}
           <div className="mt-16 flex flex-col items-center gap-6">

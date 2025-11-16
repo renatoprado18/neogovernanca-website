@@ -25,29 +25,23 @@ export default function HeroSection() {
         />
       </div>
 
-      <div className="container relative z-10 text-center px-4 py-20">
+      <div className="container relative z-10 text-center px-4 py-12 md:py-20">
         {/* Logo Symbol */}
-        <div className="mb-8 flex justify-center">
-          <div className="relative w-32 h-32 md:w-40 md:h-40">
-            <div className="absolute inset-0 rounded-full bg-gradient-to-br from-primary/20 via-secondary/20 to-accent/20 animate-pulse" />
-            <div className="absolute inset-2 rounded-full bg-background flex items-center justify-center">
-              <div className="w-20 h-20 md:w-24 md:h-24 relative">
-                {/* Tripartite symbol representation */}
-                <div className="absolute inset-0 rounded-full border-4 border-primary opacity-70" />
-                <div className="absolute inset-0 rounded-full border-4 border-secondary opacity-70 rotate-120" />
-                <div className="absolute inset-0 rounded-full border-4 border-muted opacity-70 rotate-240" />
-              </div>
-            </div>
-          </div>
+        <div className="mb-6 md:mb-8 flex justify-center">
+          <img
+            src="/images/pptx/image1.png"
+            alt="Símbolo NeoGovernança"
+            className="w-24 h-24 md:w-32 md:h-32 lg:w-40 lg:h-40"
+          />
         </div>
 
         {/* Brand Name */}
-        <h1 className="font-display text-5xl md:text-7xl lg:text-8xl font-bold text-foreground mb-4">
+        <h1 className="font-display text-4xl md:text-6xl lg:text-8xl font-bold text-foreground mb-3 md:mb-4">
           NeoGovernança
         </h1>
 
         {/* Tagline */}
-        <p className="font-body text-lg md:text-xl text-muted-foreground mb-8 max-w-2xl mx-auto italic">
+        <p className="font-body text-base md:text-lg lg:text-xl text-muted-foreground mb-6 md:mb-8 max-w-2xl mx-auto italic">
           Em equilíbrio, tudo gira.
         </p>
 
@@ -63,8 +57,8 @@ export default function HeroSection() {
         </div>
 
         {/* Main Headline */}
-        <h2 className="font-display text-3xl md:text-4xl lg:text-5xl font-semibold text-foreground mb-8 max-w-4xl mx-auto leading-tight">
-          Complexidade exige consciência.
+        <h2 className="font-display text-2xl md:text-3xl lg:text-5xl font-semibold text-foreground mb-6 md:mb-8 max-w-4xl mx-auto leading-tight">
+          Uma postura diante da complexidade
         </h2>
 
         {/* Author Credit */}

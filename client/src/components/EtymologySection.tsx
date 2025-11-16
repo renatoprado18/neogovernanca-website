@@ -34,13 +34,11 @@ export default function EtymologySection() {
           {/* Road Image */}
           <div className="flex justify-center">
             <div className="relative w-full max-w-md">
-              <div className="aspect-[3/4] relative">
-                <img
-                  src="/images/page-09.png"
-                  alt="Caminho da NeoGovernança"
-                  className="w-full h-full object-contain"
-                />
-              </div>
+              <img
+                src="/images/pptx/image10.png"
+                alt="Caminho da NeoGovernança"
+                className="w-full h-auto"
+              />
             </div>
           </div>
         </div>

@@ -22,11 +22,17 @@ export default function AbundanceSection() {
           </div>
 
           {/* Content */}
-          <div className="space-y-8 text-lg md:text-xl text-secondary-foreground/90 leading-relaxed text-center">
-            <p className="font-semibold text-secondary-foreground text-2xl">
-              Escassez gera acumulação.
+          <div className="space-y-6 text-lg md:text-xl text-secondary-foreground/90 leading-relaxed max-w-3xl mx-auto">
+            <p className="text-center">
+              Modelos baseados em escassez geram acumulação, destruição e competição.
+            </p>
+            <p className="font-semibold text-secondary-foreground text-2xl text-center">
+              Abundância não é excesso.
               <br />
-              Abundância gera movimento.
+              É fluidez, regeneração, colaboração.
+            </p>
+            <p className="text-center italic">
+              O movimento só é possível onde há abundância.
             </p>
           </div>
         </div>

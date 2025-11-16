@@ -11,22 +11,25 @@ export default function DynamicEquilibriumSection() {
           </h2>
 
           {/* Content */}
-          <div className="mb-16">
-            <p className="text-center font-semibold text-card-foreground text-3xl md:text-4xl">
-              Quanto mais gira, mais estável.
+          <div className="mb-16 space-y-6 max-w-3xl mx-auto">
+            <p className="text-center text-xl md:text-2xl text-card-foreground/80">
+              Governar no século XXI não é manter tudo sob controle.
+              <br />
+              É manter tudo em equilíbrio.
+            </p>
+            <p className="text-center font-semibold text-card-foreground text-2xl md:text-3xl">
+              Como um giroscópio: quanto mais gira, mais estável.
             </p>
           </div>
 
           {/* Gyroscope Image */}
           <div className="flex justify-center">
-            <div className="relative w-full max-w-lg">
-              <div className="aspect-square relative">
-                <img
-                  src="/images/page-07.png"
-                  alt="Giroscópio - Equilíbrio Dinâmico"
-                  className="w-full h-full object-contain"
-                />
-              </div>
+            <div className="relative w-full max-w-md">
+              <img
+                src="/images/pptx/image8.png"
+                alt="Giroscópio - Equilíbrio Dinâmico"
+                className="w-full h-auto"
+              />
             </div>
           </div>
         </div>

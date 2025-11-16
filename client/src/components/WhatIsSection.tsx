@@ -35,9 +35,14 @@ export default function WhatIsSection() {
           </h2>
 
           {/* Definition */}
-          <p className="text-center text-2xl md:text-3xl font-display font-semibold text-foreground mb-16">
-            Adaptável. Humana. Conectada.
-          </p>
+          <div className="text-center mb-16 space-y-6">
+            <p className="text-xl md:text-2xl text-foreground/80">
+              Uma filosofia viva: adaptável, humana, conectada à natureza.
+            </p>
+            <p className="text-2xl md:text-3xl font-display font-semibold text-foreground">
+              Não é fórmula. É consciência aplicada.
+            </p>
+          </div>
 
           {/* Three Pillars */}
           <div className="grid md:grid-cols-3 gap-8 mb-16">
