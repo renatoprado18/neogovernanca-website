@@ -34,21 +34,14 @@ export default function AuthorSection() {
             {/* Author Info */}
             <div className="order-1 md:order-2 space-y-8">
               <div>
-                <h3 className="font-display text-3xl md:text-4xl font-bold mb-4">
+                <h3 className="font-display text-3xl md:text-4xl font-bold mb-6">
                   Renato de Faria e Almeida Prado
                 </h3>
-                <p className="text-xl text-secondary-foreground/90 mb-6">
-                  Conselheiro em conselhos estratégicos e consultivos.
-                </p>
               </div>
 
               <div className="space-y-4 text-lg text-secondary-foreground/90 leading-relaxed">
                 <p>
-                  Lidera Conselhos Consultivos e de Administração conectando estratégia e inovação.
-                </p>
-
-                <p>
-                  CEO e fundador em tecnologia, alimentos e serviços. Projetos voltados a valor econômico, impacto social e empreendedorismo inclusivo.
+                  Conselheiro. CEO. Fundador.
                 </p>
 
                 <p className="font-semibold text-secondary-foreground">

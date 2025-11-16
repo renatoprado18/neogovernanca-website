@@ -12,12 +12,7 @@ export default function TripartiteGyroscopeSection() {
             o Coração da NeoGovernança
           </h2>
 
-          {/* Intro */}
-          <p className="text-xl md:text-2xl text-background/90 mb-12 text-center leading-relaxed">
-            Giroscópio, abundância, yin-yang:
-            <br />
-            equilíbrio entre opostos.
-          </p>
+
 
           {/* Three Elements */}
           <div className="mb-16">
@@ -55,17 +50,9 @@ export default function TripartiteGyroscopeSection() {
           </div>
 
           {/* Content */}
-          <div className="space-y-8 text-lg md:text-xl text-background/90 leading-relaxed">
-            <p className="font-semibold text-background text-2xl">
-              O giro sustenta a estabilidade.
-              <br />
-              Não a rigidez.
-            </p>
-
-            <p className="text-center text-2xl md:text-3xl font-display font-bold text-background pt-8">
-              Abundância nasce quando giramos juntos.
-            </p>
-          </div>
+          <p className="text-center text-3xl md:text-4xl font-display font-bold text-background">
+            Giramos juntos, não contra.
+          </p>
         </div>
       </div>
     </section>

@@ -35,14 +35,9 @@ export default function WhatIsSection() {
           </h2>
 
           {/* Definition */}
-          <div className="text-center mb-16">
-            <p className="text-2xl md:text-3xl font-display font-semibold text-foreground mb-6">
-              Uma filosofia viva: adaptável, humana, conectada à natureza.
-            </p>
-            <p className="text-lg md:text-xl text-muted-foreground">
-              Três eixos em movimento:
-            </p>
-          </div>
+          <p className="text-center text-2xl md:text-3xl font-display font-semibold text-foreground mb-16">
+            Adaptável. Humana. Conectada.
+          </p>
 
           {/* Three Pillars */}
           <div className="grid md:grid-cols-3 gap-8 mb-16">
@@ -76,12 +71,7 @@ export default function WhatIsSection() {
             })}
           </div>
 
-          {/* Bottom Text */}
-          <div className="pt-8 border-t border-border text-center max-w-3xl mx-auto">
-            <p className="text-xl md:text-2xl font-display font-semibold text-foreground">
-              Não é fórmula. É consciência em movimento.
-            </p>
-          </div>
+
         </div>
       </div>
     </section>

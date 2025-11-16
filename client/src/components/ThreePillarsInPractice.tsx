@@ -7,8 +7,8 @@ const practices = [
     color: "text-primary",
     bgColor: "bg-primary",
     items: [
-      "Inovação com viabilidade.",
-      "Reposicionar produtos, adotar IA com propósito, ampliar valor sem perder essência.",
+      "Inovação viável.",
+      "Valor sem perder essência.",
     ],
   },
   {
@@ -17,9 +17,9 @@ const practices = [
     color: "text-secondary",
     bgColor: "bg-secondary",
     items: [
-      "Liderança com escuta ativa.",
-      "Cuidar das pessoas dentro e ao redor da empresa.",
-      "Incluir vozes diversas nas decisões e fortalecer vínculos de confiança.",
+      "Escuta ativa.",
+      "Vozes diversas.",
+      "Vínculos de confiança.",
     ],
   },
   {
@@ -28,8 +28,8 @@ const practices = [
     color: "text-muted",
     bgColor: "bg-muted",
     items: [
-      "Respeito pelo tempo e pelo território.",
-      "Tomar decisões com consciência ecológica.",
+      "Respeito pelo tempo.",
+      "Consciência ecológica.",
     ],
   },
 ];

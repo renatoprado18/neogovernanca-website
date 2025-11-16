@@ -29,13 +29,7 @@ export default function EtymologySection() {
             </div>
           </div>
 
-          {/* Quote */}
-          <div className="mb-16">
-            <p className="text-2xl md:text-3xl lg:text-4xl font-display italic text-center text-foreground/80 leading-relaxed">
-              Filosofias que perduram há milênios são perfeitas para se tornarem
-              os valores fundamentais da governança do futuro.
-            </p>
-          </div>
+
 
           {/* Road Image */}
           <div className="flex justify-center">

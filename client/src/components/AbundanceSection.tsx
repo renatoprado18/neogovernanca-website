@@ -21,25 +21,12 @@ export default function AbundanceSection() {
             </div>
           </div>
 
-          <p className="text-center text-lg md:text-xl text-secondary-foreground/90 mb-12 italic">
-            Símbolo da abundância em equilíbrio, um infinito em três alças.
-          </p>
-
           {/* Content */}
-          <div className="space-y-8 text-lg md:text-xl text-secondary-foreground/90 leading-relaxed">
-            <p>
-              Modelos baseados em escassez geram acumulação e competição.
-              NeoGovernança parte da abundância.
-            </p>
-
+          <div className="space-y-8 text-lg md:text-xl text-secondary-foreground/90 leading-relaxed text-center">
             <p className="font-semibold text-secondary-foreground text-2xl">
-              Abundância não é excesso.
+              Escassez gera acumulação.
               <br />
-              É fluidez, regeneração, colaboração.
-            </p>
-
-            <p>
-              O movimento só existe onde há abundância.
+              Abundância gera movimento.
             </p>
           </div>
         </div>

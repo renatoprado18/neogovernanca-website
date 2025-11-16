@@ -11,19 +11,9 @@ export default function DynamicEquilibriumSection() {
           </h2>
 
           {/* Content */}
-          <div className="space-y-8 text-lg md:text-xl text-card-foreground/80 leading-relaxed mb-16">
-            <p className="text-center font-semibold text-card-foreground text-2xl">
-              Governar no século XXI não é controlar.
-              <br />
-              É equilibrar.
-            </p>
-
-            <p>
-              Tensões não devem ser eliminadas. Devem ser navegadas.
-            </p>
-
-            <p className="text-center italic text-2xl md:text-3xl font-display text-card-foreground">
-              Como um giroscópio: quanto mais gira, mais estável.
+          <div className="mb-16">
+            <p className="text-center font-semibold text-card-foreground text-3xl md:text-4xl">
+              Quanto mais gira, mais estável.
             </p>
           </div>
 

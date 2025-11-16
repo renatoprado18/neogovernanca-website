@@ -4,21 +4,10 @@ export default function ContextSection() {
       <div className="container px-4">
         <div className="max-w-4xl mx-auto">
           <h2 className="font-display text-4xl md:text-5xl lg:text-6xl font-bold text-card-foreground mb-12 text-center">
-            Um novo tempo exige
+            A governança tradicional
             <br />
-            um novo modelo de liderança
+            já não basta
           </h2>
-
-          <div className="space-y-8 text-lg md:text-xl text-card-foreground/80 leading-relaxed">
-            <p>
-              Crises climáticas, disrupções tecnológicas, desigualdades sociais.
-              As organizações precisam de mais que eficiência.
-            </p>
-
-            <p className="font-semibold text-card-foreground text-2xl">
-              A governança tradicional já não basta.
-            </p>
-          </div>
 
           {/* Logo Symbol */}
           <div className="mt-16 flex flex-col items-center gap-6">

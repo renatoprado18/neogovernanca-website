@@ -47,10 +47,8 @@ export default function HeroSection() {
         </h1>
 
         {/* Tagline */}
-        <p className="font-body text-lg md:text-xl text-muted-foreground mb-8 max-w-2xl mx-auto">
-          Progresso. Conexão. Harmonia.
-          <br />
-          <span className="italic">Em equilíbrio, tudo gira.</span>
+        <p className="font-body text-lg md:text-xl text-muted-foreground mb-8 max-w-2xl mx-auto italic">
+          Em equilíbrio, tudo gira.
         </p>
 
         {/* Gyroscope Image */}
@@ -65,14 +63,9 @@ export default function HeroSection() {
         </div>
 
         {/* Main Headline */}
-        <h2 className="font-display text-3xl md:text-4xl lg:text-5xl font-semibold text-foreground mb-6 max-w-4xl mx-auto leading-tight">
-          Uma postura diante da complexidade
+        <h2 className="font-display text-3xl md:text-4xl lg:text-5xl font-semibold text-foreground mb-8 max-w-4xl mx-auto leading-tight">
+          Complexidade exige consciência.
         </h2>
-
-        {/* Subtitle */}
-        <p className="font-body text-base md:text-lg text-foreground/80 mb-8 max-w-3xl mx-auto leading-relaxed">
-          A complexidade exige mais que controle. Exige consciência.
-        </p>
 
         {/* Author Credit */}
         <div className="border-t border-border pt-6 max-w-2xl mx-auto">
