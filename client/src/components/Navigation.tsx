@@ -34,9 +34,9 @@ export default function Navigation() {
 
   return (
     <nav
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
+      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${
         isScrolled
-          ? "bg-background/95 backdrop-blur-sm shadow-md"
+          ? "glass-dark shadow-2xl border-b border-border/50"
           : "bg-transparent"
       }`}
     >
@@ -64,7 +64,7 @@ export default function Navigation() {
                 key={item.href}
                 variant="ghost"
                 onClick={() => scrollToSection(item.href)}
-                className="font-body text-sm hover:text-primary transition-colors"
+                className="font-body text-sm hover:text-primary transition-all duration-300 hover:scale-105"
               >
                 {item.label}
               </Button>

@@ -1,4 +1,4 @@
-import { ArrowDown } from "lucide-react";
+import { ChevronDown } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 export default function HeroSection() {
@@ -27,58 +27,59 @@ export default function HeroSection() {
 
       <div className="container relative z-10 text-center px-4 py-12 md:py-20">
         {/* Logo Symbol */}
-        <div className="mb-6 md:mb-8 flex justify-center">
+        <div className="mb-6 md:mb-8 flex justify-center animate-scale-in delay-200">
           <img
             src="/images/pptx/image1.png"
             alt="Símbolo NeoGovernança"
-            className="w-24 h-24 md:w-32 md:h-32 lg:w-40 lg:h-40"
+            className="w-24 h-24 md:w-32 md:h-32 lg:w-40 lg:h-40 hover-lift transition-smooth"
           />
         </div>
 
         {/* Brand Name */}
-        <h1 className="font-display text-4xl md:text-6xl lg:text-8xl font-bold text-foreground mb-3 md:mb-4">
+        <h1 className="font-display text-4xl md:text-6xl lg:text-8xl font-bold text-foreground mb-3 md:mb-4 animate-fade-in-up delay-300">
           NeoGovernança
         </h1>
 
         {/* Tagline */}
-        <p className="font-body text-base md:text-lg lg:text-xl text-muted-foreground mb-6 md:mb-8 max-w-2xl mx-auto italic">
+        <p className="font-body text-base md:text-lg lg:text-xl text-muted-foreground mb-6 md:mb-8 max-w-2xl mx-auto italic animate-fade-in delay-400">
           Em equilíbrio, tudo gira.
         </p>
 
         {/* Gyroscope Image */}
-        <div className="mb-12 flex justify-center">
-          <div className="relative w-full max-w-md aspect-square">
+        <div className="mb-12 flex justify-center animate-fade-in-up delay-500">
+          <div className="relative w-full max-w-md aspect-square group">
             <img
               src="/images/pptx/image8.png"
               alt="Giroscópio NeoGovernança"
-              className="w-full h-full object-contain"
+              className="w-full h-full object-contain transition-smooth group-hover:scale-105 animate-float"
             />
           </div>
         </div>
 
         {/* Main Headline */}
-        <h2 className="font-display text-2xl md:text-3xl lg:text-5xl font-semibold text-foreground mb-6 md:mb-8 max-w-4xl mx-auto leading-tight">
+        <h2 className="font-display text-2xl md:text-3xl lg:text-5xl font-semibold text-foreground mb-6 md:mb-8 max-w-4xl mx-auto leading-tight animate-fade-in-up delay-600">
           Uma postura diante da complexidade
         </h2>
 
         {/* Author Credit */}
-        <div className="border-t border-border pt-6 max-w-2xl mx-auto">
+        <div className="border-t border-border pt-6 max-w-2xl mx-auto animate-fade-in delay-700">
           <p className="font-display text-xl md:text-2xl font-semibold text-foreground mb-2">
             Renato de Faria e Almeida Prado
           </p>
-          <p className="font-body text-sm md:text-base text-muted-foreground">
-            Conselheiro e estrategista em NeoGovernança
+          <p className="text-sm md:text-base text-muted-foreground">
+            Conselheiro do Futuro | AI Thinker
           </p>
         </div>
 
-        {/* Scroll Indicator */}
+        {/* Scroll Down Button */}
         <Button
+          onClick={scrollToNext}
           variant="ghost"
           size="icon"
-          onClick={scrollToNext}
-          className="absolute bottom-8 left-1/2 -translate-x-1/2 animate-bounce hover:text-primary transition-colors"
+          className="mt-12 mx-auto rounded-full animate-bounce hover:animate-none transition-smooth"
+          aria-label="Rolar para próxima seção"
         >
-          <ArrowDown className="h-6 w-6" />
+          <ChevronDown className="w-6 h-6" />
         </Button>
       </div>
     </section>

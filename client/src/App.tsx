@@ -5,7 +5,8 @@ import { Route, Switch } from "wouter";
 import ErrorBoundary from "./components/ErrorBoundary";
 import { ThemeProvider } from "./contexts/ThemeContext";
 import Home from "./pages/Home";
-import Navigation from "./components/Navigation";
+import ScrollProgress from "./components/ScrollProgress";
+import BackToTop from "./components/BackToTop";
 
 function Router() {
   return (
@@ -31,9 +32,10 @@ function App() {
         // switchable
       >
         <TooltipProvider>
+          <ScrollProgress />
           <Toaster />
-          <Navigation />
           <Router />
+          <BackToTop />
         </TooltipProvider>
       </ThemeProvider>
     </ErrorBoundary>
