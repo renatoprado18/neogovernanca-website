@@ -12,24 +12,18 @@ export default function DynamicEquilibriumSection() {
 
           {/* Content */}
           <div className="space-y-8 text-lg md:text-xl text-card-foreground/80 leading-relaxed mb-16">
-            <p className="text-center font-semibold text-card-foreground">
-              Governar no século XXI não é manter tudo sob controle. É manter
-              tudo em equilíbrio.
+            <p className="text-center font-semibold text-card-foreground text-2xl">
+              Governar no século XXI não é controlar.
+              <br />
+              É equilibrar.
             </p>
 
             <p>
-              Vivemos em um mundo que exige decisões rápidas, mas conscientes.
-              Tensões não devem ser eliminadas - devem ser navegadas.
-            </p>
-
-            <p>
-              A NeoGovernança propõe uma nova inteligência: liderar em
-              movimento, ajustado com precisão entre os eixos do progresso, da
-              conexão e da harmonia.
+              Tensões não devem ser eliminadas. Devem ser navegadas.
             </p>
 
             <p className="text-center italic text-2xl md:text-3xl font-display text-card-foreground">
-              Assim como um giroscópio: quanto mais gira, mais estável se torna.
+              Como um giroscópio: quanto mais gira, mais estável.
             </p>
           </div>
 

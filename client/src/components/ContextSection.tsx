@@ -11,24 +11,12 @@ export default function ContextSection() {
 
           <div className="space-y-8 text-lg md:text-xl text-card-foreground/80 leading-relaxed">
             <p>
-              Vivemos em um mundo em transição. O que antes era estável agora se
-              transforma em tempo real.
+              Crises climáticas, disrupções tecnológicas, desigualdades sociais.
+              As organizações precisam de mais que eficiência.
             </p>
 
-            <p>
-              Crises climáticas, disrupções tecnológicas, desigualdades sociais
-              e tensões institucionais exigem das organizações mais do que
-              eficiência: exigem consciência.
-            </p>
-
-            <p>
-              Não estamos apenas em uma era de mudanças - estamos vivendo uma
-              mudança de era.
-            </p>
-
-            <p className="font-semibold text-card-foreground">
-              A governança tradicional, baseada no controle, já não basta. É
-              hora de um novo modelo: adaptável, humano, conectado.
+            <p className="font-semibold text-card-foreground text-2xl">
+              A governança tradicional já não basta.
             </p>
           </div>
 

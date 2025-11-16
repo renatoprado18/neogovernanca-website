@@ -16,18 +16,11 @@ export default function ContactSection() {
       <div className="container px-4 relative z-10">
         <div className="max-w-4xl mx-auto text-center">
           {/* CTA Headline */}
-          <h2 className="font-display text-4xl md:text-5xl lg:text-6xl font-bold mb-8 leading-tight">
-            Pronto para transformar
+          <h2 className="font-display text-4xl md:text-5xl lg:text-6xl font-bold mb-12 leading-tight">
+            Transforme seu conselho
             <br />
-            seu conselho com
-            <br />
-            <span className="text-accent">inteligência e equilíbrio?</span>
+            com <span className="text-accent">inteligência e equilíbrio</span>
           </h2>
-
-          {/* Subheadline */}
-          <p className="text-xl md:text-2xl mb-12 text-primary-foreground/90">
-            Entre em contato:
-          </p>
 
           {/* Contact Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-16">

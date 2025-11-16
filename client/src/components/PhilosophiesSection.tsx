@@ -75,13 +75,7 @@ export default function PhilosophiesSection() {
             })}
           </div>
 
-          {/* Bottom Note */}
-          <div className="mt-16 text-center">
-            <p className="text-xl md:text-2xl text-primary-foreground/90 italic">
-              Essas filosofias milenares nos ensinam a navegar a complexidade
-              com sabedoria, paciência e equilíbrio.
-            </p>
-          </div>
+
         </div>
       </div>
     </section>

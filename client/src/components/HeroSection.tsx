@@ -71,9 +71,7 @@ export default function HeroSection() {
 
         {/* Subtitle */}
         <p className="font-body text-base md:text-lg text-foreground/80 mb-8 max-w-3xl mx-auto leading-relaxed">
-          Em um cenário de crescente complexidade, a governança tradicional não
-          é mais suficiente. A NeoGovernança surge para inspirar as empresas
-          rumo ao futuro.
+          A complexidade exige mais que controle. Exige consciência.
         </p>
 
         {/* Author Credit */}

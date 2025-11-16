@@ -36,14 +36,11 @@ export default function WhatIsSection() {
 
           {/* Definition */}
           <div className="text-center mb-16">
-            <p className="text-xl md:text-2xl text-foreground/90 mb-4">
-              A NeoGovernança é uma filosofia viva
-            </p>
             <p className="text-2xl md:text-3xl font-display font-semibold text-foreground mb-6">
-              adaptável, humana, conectada à natureza.
+              Uma filosofia viva: adaptável, humana, conectada à natureza.
             </p>
             <p className="text-lg md:text-xl text-muted-foreground">
-              ela une três eixos fundamentais:
+              Três eixos em movimento:
             </p>
           </div>
 
@@ -80,20 +77,10 @@ export default function WhatIsSection() {
           </div>
 
           {/* Bottom Text */}
-          <div className="space-y-6 text-center max-w-3xl mx-auto">
-            <p className="text-lg md:text-xl text-foreground/80 leading-relaxed">
-              Esses três eixos giram juntos, criando estabilidade em meio ao
-              movimento.
+          <div className="pt-8 border-t border-border text-center max-w-3xl mx-auto">
+            <p className="text-xl md:text-2xl font-display font-semibold text-foreground">
+              Não é fórmula. É consciência em movimento.
             </p>
-
-            <div className="pt-8 border-t border-border">
-              <p className="text-xl md:text-2xl font-display font-semibold text-foreground mb-3">
-                NeoGovernança não é fórmula.
-              </p>
-              <p className="text-lg md:text-xl text-foreground/80">
-                É consciência aplicada a liderança em tempos complexos.
-              </p>
-            </div>
           </div>
         </div>
       </div>

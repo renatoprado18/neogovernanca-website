@@ -14,9 +14,9 @@ export default function TripartiteGyroscopeSection() {
 
           {/* Intro */}
           <p className="text-xl md:text-2xl text-background/90 mb-12 text-center leading-relaxed">
-            O símbolo da NeoGovernança nasce da inspiração no giroscópio, na
-            abundância e no yin-yang, que há milênios representa o equilíbrio
-            entre opostos.
+            Giroscópio, abundância, yin-yang:
+            <br />
+            equilíbrio entre opostos.
           </p>
 
           {/* Three Elements */}
@@ -56,24 +56,14 @@ export default function TripartiteGyroscopeSection() {
 
           {/* Content */}
           <div className="space-y-8 text-lg md:text-xl text-background/90 leading-relaxed">
-            <p>
-              Esses eixos não estão isolados, nem em conflito. Eles giram
-              juntos, como as peças de um giroscópio. E o giroscópio só
-              permanece em equilíbrio se estiver em movimento.
-            </p>
-
-            <p className="font-semibold text-background">
-              É o giro que sustenta a estabilidade — não a rigidez.
-            </p>
-
-            <p>
-              No centro de cada eixo, um ponto dourado: símbolo da abundância —
-              não como excesso, mas como fluidez, regeneração e valor
-              compartilhado.
+            <p className="font-semibold text-background text-2xl">
+              O giro sustenta a estabilidade.
+              <br />
+              Não a rigidez.
             </p>
 
             <p className="text-center text-2xl md:text-3xl font-display font-bold text-background pt-8">
-              Abundância é o que nasce quando giramos juntos, não contra.
+              Abundância nasce quando giramos juntos.
             </p>
           </div>
         </div>

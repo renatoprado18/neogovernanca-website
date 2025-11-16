@@ -44,25 +44,15 @@ export default function AuthorSection() {
 
               <div className="space-y-4 text-lg text-secondary-foreground/90 leading-relaxed">
                 <p>
-                  Atua promovendo a NeoGovernança – o futuro da Governança -
-                  baseada no equilíbrio entre progresso econômico, conexão
-                  humana e harmonia com a natureza.
+                  Lidera Conselhos Consultivos e de Administração conectando estratégia e inovação.
                 </p>
 
                 <p>
-                  Implementa e lidera Conselhos Consultivos e de Administração
-                  conectando estratégia e inovação.
-                </p>
-
-                <p>
-                  Atuou como CEO e fundador em organizações dos setores de
-                  tecnologia, alimentos e bebidas, e serviços, liderando
-                  projetos voltados à criação de valor econômico, impacto social
-                  e empreendedorismo inclusivo.
+                  CEO e fundador em tecnologia, alimentos e serviços. Projetos voltados a valor econômico, impacto social e empreendedorismo inclusivo.
                 </p>
 
                 <p className="font-semibold text-secondary-foreground">
-                  Certificado CCA-IBGC e PFCC-Board Academy.
+                  CCA-IBGC | PFCC-Board Academy
                 </p>
               </div>
 
