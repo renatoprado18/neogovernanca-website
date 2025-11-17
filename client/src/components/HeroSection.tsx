@@ -42,7 +42,7 @@ export default function HeroSection() {
 
         {/* Tagline */}
         <p className="font-body text-base md:text-lg lg:text-xl text-muted-foreground mb-6 md:mb-8 max-w-2xl mx-auto italic animate-fade-in delay-400">
-          Em equilíbrio, tudo gira.
+          Em equilíbrio, tudo gira. Em rigidez, tudo quebra.
         </p>
 
         {/* Gyroscope Image */}
@@ -58,7 +58,7 @@ export default function HeroSection() {
 
         {/* Main Headline */}
         <h2 className="font-display text-2xl md:text-3xl lg:text-5xl font-semibold text-foreground mb-6 md:mb-8 max-w-4xl mx-auto leading-tight animate-fade-in-up delay-600">
-          Uma postura diante da complexidade
+          A nova inteligência para conselhos do século XXI
         </h2>
 
         {/* Author Credit */}
@@ -71,12 +71,34 @@ export default function HeroSection() {
           </p>
         </div>
 
+        {/* CTA Buttons */}
+        <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-8 animate-fade-in delay-700">
+          <Button
+            size="lg"
+            onClick={() => {
+              const element = document.querySelector("#contato");
+              if (element) element.scrollIntoView({ behavior: "smooth" });
+            }}
+            className="hover-lift text-base md:text-lg px-6 md:px-8 py-4 md:py-6"
+          >
+            Agende Diagnóstico Gratuito
+          </Button>
+          <Button
+            size="lg"
+            variant="outline"
+            onClick={scrollToNext}
+            className="hover-lift text-base md:text-lg px-6 md:px-8 py-4 md:py-6 bg-transparent"
+          >
+            Conheça a Metodologia
+          </Button>
+        </div>
+
         {/* Scroll Down Button */}
         <Button
           onClick={scrollToNext}
           variant="ghost"
           size="icon"
-          className="mt-12 mx-auto rounded-full animate-bounce hover:animate-none transition-smooth"
+          className="mt-4 mx-auto rounded-full animate-bounce hover:animate-none transition-smooth"
           aria-label="Rolar para próxima seção"
         >
           <ChevronDown className="w-6 h-6" />

@@ -9,11 +9,18 @@ export default function ContextSection() {
             um novo modelo de liderança
           </h2>
           
-          <p className="text-lg md:text-xl lg:text-2xl text-card-foreground/80 text-center mb-8 md:mb-12 max-w-3xl mx-auto">
+          <p className="text-lg md:text-xl lg:text-2xl text-card-foreground/80 text-center mb-6 md:mb-8 max-w-3xl mx-auto">
             Não estamos apenas em uma era de mudanças.
             <br />
-            Estamos vivendo uma mudança de era.
+            <strong>Estamos vivendo uma mudança de era.</strong>
           </p>
+          
+          <div className="bg-card-foreground/10 border border-card-foreground/20 rounded-lg p-6 md:p-8 max-w-2xl mx-auto mb-8 md:mb-12">
+            <p className="text-base md:text-lg text-card-foreground/90 text-center">
+              <strong className="text-xl md:text-2xl font-display block mb-2">87%</strong>
+              dos CEOs globais afirmam que seus conselhos não estão preparados para as próximas disrupções.
+            </p>
+          </div>
 
           {/* Logo Symbol */}
           <div className="mt-16 flex flex-col items-center gap-6">

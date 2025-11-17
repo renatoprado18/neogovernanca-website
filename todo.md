@@ -170,3 +170,17 @@
 - [x] Fix deployment settings (created vercel.json + build:client script)
 - [ ] Push to GitHub and trigger Vercel redeploy
 - [ ] Verify website loads correctly on Vercel and neogovernanca.com.br
+
+## Storytelling Improvements Implementation
+### Immediate Actions (High Impact, Low Effort)
+- [x] Revisar CTA do Hero (adicionar urgência/exclusividade)
+- [x] Adicionar dados quantitativos na seção Contexto
+- [x] Criar seção de depoimentos (3 depoimentos completos)
+- [x] Adicionar micro-cases nos Três Pilares
+- [x] Revisar CTA do Contato com urgência e dados
+
+### Short-term Actions
+- [ ] Criar seção "NeoGovernança em Ação" (3 cases completos)
+- [ ] Desenvolver Lead Magnet: Diagnóstico de Maturidade
+- [ ] Adicionar infográfico "Tradicional vs. NeoGovernança"
+- [ ] Criar newsletter signup

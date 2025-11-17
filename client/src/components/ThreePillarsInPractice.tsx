@@ -10,6 +10,8 @@ const practices = [
       "Inovação viável.",
       "Valor sem perder essência.",
     ],
+    example: "Não é crescer a qualquer custo. É crescer com propósito.",
+    case: "Como uma B-Corp triplicou receita mantendo certificação ESG máxima."
   },
   {
     icon: Heart,
@@ -21,6 +23,8 @@ const practices = [
       "Vozes diversas.",
       "Vínculos de confiança.",
     ],
+    example: "Não é RH. É cultura como vantagem competitiva.",
+    case: "O conselho que reduziu turnover de liderança de 40% para 8% em 18 meses."
   },
   {
     icon: Sprout,
@@ -31,6 +35,8 @@ const practices = [
       "Respeito pelo tempo.",
       "Consciência ecológica.",
     ],
+    example: "Não é greenwashing. É regeneração como estratégia.",
+    case: "A empresa que transformou resíduo em linha de receita de R$ 50M."
   },
 ];
 
@@ -73,7 +79,7 @@ export default function ThreePillarsInPractice() {
                     <h3 className="font-display text-3xl md:text-4xl font-bold mb-6 text-center md:text-left">
                       {practice.title}
                     </h3>
-                    <ul className="space-y-4">
+                    <ul className="space-y-4 mb-6">
                       {practice.items.map((item, itemIndex) => (
                         <li
                           key={itemIndex}
@@ -84,6 +90,16 @@ export default function ThreePillarsInPractice() {
                         </li>
                       ))}
                     </ul>
+                    
+                    {/* Micro-case */}
+                    <div className="bg-primary-foreground/10 border border-primary-foreground/20 rounded-lg p-4 md:p-6">
+                      <p className="text-base md:text-lg text-primary-foreground/90 mb-2">
+                        {practice.example}
+                      </p>
+                      <p className="text-sm md:text-base text-primary-foreground/70 italic">
+                        Exemplo: {practice.case}
+                      </p>
+                    </div>
                   </div>
                 </div>
               );

@@ -15,16 +15,26 @@ export default function ContactSection() {
         <div className="max-w-4xl mx-auto text-center">
           {/* CTA Headline */}
           <h2
-            className={`font-display text-4xl md:text-5xl lg:text-6xl font-bold mb-12 leading-tight transition-all duration-1000 ${
+            className={`font-display text-4xl md:text-5xl lg:text-6xl font-bold mb-8 leading-tight transition-all duration-1000 ${
               isVisible
                 ? "opacity-100 translate-y-0"
                 : "opacity-0 translate-y-10"
             }`}
           >
-            Transforme seu conselho
+            Seu Próximo Ciclo Estratégico
             <br />
-            com <span className="text-accent">inteligência e equilíbrio</span>
+            Começa em Quantos Meses?
           </h2>
+          
+          {/* Urgency Statement */}
+          <div className="bg-primary-foreground/10 border border-primary-foreground/20 rounded-lg p-6 md:p-8 max-w-3xl mx-auto mb-12">
+            <p className="text-lg md:text-xl text-primary-foreground/90 text-center mb-4">
+              Conselhos que adotam NeoGovernança reportam <strong className="text-2xl font-display">34% mais alinhamento</strong> entre board e C-suite no primeiro ano.
+            </p>
+            <p className="text-base md:text-lg text-primary-foreground/70 text-center">
+              Quanto custa esperar mais um ano?
+            </p>
+          </div>
 
           {/* Contact Buttons */}
           <div
