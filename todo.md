@@ -163,3 +163,10 @@
 - [x] Create back-to-top button
 - [x] Add gyroscope rotation animations
 - [x] Implement glassmorphism effects on cards
+
+## Vercel Deployment Fix
+- [x] Investigate why Vercel is showing server code instead of website
+- [x] Check build configuration and output directory
+- [x] Fix deployment settings (created vercel.json + build:client script)
+- [ ] Push to GitHub and trigger Vercel redeploy
+- [ ] Verify website loads correctly on Vercel and neogovernanca.com.br
