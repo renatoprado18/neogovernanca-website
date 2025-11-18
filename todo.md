@@ -193,3 +193,11 @@
 - [x] Implementar melhorias de conteúdo aprovadas (Fase 1 completa)
 - [ ] Implementar melhorias visuais aprovadas (Fase 2)
 - [x] Corrigir erro "gular" para "guiar" na etimologia
+
+
+## Próximos Passos - Fase 2
+- [x] Criar componente infográfico "Tradicional vs. NeoGovernança"
+- [x] Adicionar seção "NeoGovernança + IA" (10XMentorAI e imensIAH)
+- [ ] Testar todas as novas funcionalidades
+- [ ] Sincronizar com GitHub
+- [ ] Verificar deployment no Vercel

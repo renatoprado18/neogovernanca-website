@@ -9,6 +9,8 @@ import EtymologySection from "@/components/EtymologySection";
 import PhilosophiesSection from "@/components/PhilosophiesSection";
 import AuthorSection from "@/components/AuthorSection";
 import TestimonialsSection from "@/components/TestimonialsSection";
+import ComparisonSection from "@/components/ComparisonSection";
+import AISection from "@/components/AISection";
 import ContactSection from "@/components/ContactSection";
 import Footer from "@/components/Footer";
 
@@ -24,6 +26,8 @@ export default function Home() {
       <TripartiteGyroscopeSection />
       <EtymologySection />
       <PhilosophiesSection />
+      <ComparisonSection />
+      <AISection />
       <AuthorSection />
       <TestimonialsSection />
       <ContactSection />
