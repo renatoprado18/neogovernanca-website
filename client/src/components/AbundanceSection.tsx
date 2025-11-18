@@ -24,12 +24,15 @@ export default function AbundanceSection() {
           {/* Content */}
           <div className="space-y-6 text-lg md:text-xl text-secondary-foreground/90 leading-relaxed max-w-3xl mx-auto">
             <p className="text-center">
-              Modelos baseados em escassez geram acumulação, destruição e competição.
+              O símbolo da NeoGovernança é inspirado no infinito — mas com três alças, representando os três eixos que sustentam esse novo modelo: <strong>progresso econômico, conexão humana e harmonia com a natureza</strong>.
+            </p>
+            <p className="text-center">
+              Enquanto o mundo atual ainda baseia seus modelos de negócio na <strong>escassez</strong> — gerando acumulação, destruição e competição — a NeoGovernança propõe um novo fundamento: <strong className="text-secondary-foreground text-2xl">a abundância</strong>.
             </p>
             <p className="font-semibold text-secondary-foreground text-2xl text-center">
               Abundância não é excesso.
               <br />
-              É fluidez, regeneração, colaboração.
+              É fluidez, regeneração e interdependência.
             </p>
             <p className="text-center italic">
               O movimento só é possível onde há abundância.

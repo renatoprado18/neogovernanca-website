@@ -9,6 +9,10 @@ export default function ContextSection() {
             um novo modelo de liderança
           </h2>
           
+          <p className="text-lg md:text-xl text-card-foreground/80 text-center mb-6 max-w-3xl mx-auto">
+            Em um cenário de crescente complexidade, a governança tradicional não é mais suficiente.
+          </p>
+          
           <p className="text-lg md:text-xl lg:text-2xl text-card-foreground/80 text-center mb-6 md:mb-8 max-w-3xl mx-auto">
             Não estamos apenas em uma era de mudanças.
             <br />
@@ -37,9 +41,8 @@ export default function ContextSection() {
             </div>
 
             <p className="font-display text-2xl md:text-3xl font-semibold text-card-foreground text-center">
-              É neste contexto que surge a
-              <br />
-              <span className="text-primary">NeoGovernança</span>.
+              É neste contexto que a NeoGovernança surge para{" "}
+              <span className="text-primary">guiar</span> as empresas rumo ao futuro.
             </p>
           </div>
         </div>

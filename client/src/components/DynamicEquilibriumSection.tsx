@@ -17,6 +17,9 @@ export default function DynamicEquilibriumSection() {
               <br />
               É manter tudo em equilíbrio.
             </p>
+            <p className="text-center text-lg md:text-xl text-card-foreground/70 mb-4">
+              Vivemos em um mundo que exige decisões rápidas, mas conscientes. Tensões não devem ser eliminadas — devem ser navegadas.
+            </p>
             <p className="text-center font-semibold text-card-foreground text-2xl md:text-3xl">
               Como um giroscópio: quanto mais gira, mais estável.
             </p>

@@ -184,3 +184,12 @@
 - [ ] Desenvolver Lead Magnet: Diagnóstico de Maturidade
 - [ ] Adicionar infográfico "Tradicional vs. NeoGovernança"
 - [ ] Criar newsletter signup
+
+
+## Consolidação com almeida-prado.com/neogovernanca
+- [x] Analisar diferenças de conteúdo entre os dois sites
+- [x] Identificar pontos fortes de cada versão
+- [x] Criar proposta de conteúdo consolidado
+- [x] Implementar melhorias de conteúdo aprovadas (Fase 1 completa)
+- [ ] Implementar melhorias visuais aprovadas (Fase 2)
+- [x] Corrigir erro "gular" para "guiar" na etimologia

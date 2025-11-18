@@ -23,7 +23,7 @@ export default function EtymologySection() {
                   governança
                 </span>
                 <span className="text-muted-foreground ml-2">
-                  (gular; dirigir, trilhar)
+                  (guiar; dirigir, trilhar)
                 </span>
               </div>
             </div>

@@ -75,7 +75,12 @@ export default function PhilosophiesSection() {
             })}
           </div>
 
-
+          {/* Closing Statement */}
+          <div className="mt-16 text-center max-w-3xl mx-auto">
+            <p className="text-xl md:text-2xl font-display italic text-primary-foreground/90">
+              Filosofias que perduram há milênios são perfeitas para se tornarem os valores fundamentais da governança do futuro.
+            </p>
+          </div>
         </div>
       </div>
     </section>

@@ -5,19 +5,19 @@ const pillars = [
   {
     icon: TrendingUp,
     title: "Progresso Econômico",
-    description: "Sustentabilidade financeira, inovação e visão de longo prazo.",
+    description: "Sustentabilidade e inteligência financeira. Inovação com viabilidade. Reposicionar produtos, adotar IA com propósito, ampliar valor sem perder essência. Visão de longo prazo.",
     color: "from-primary to-primary/80",
   },
   {
     icon: Heart,
     title: "Conexão Humana",
-    description: "Empatia, escuta e inteligência coletiva.",
+    description: "Empatia, escuta coletiva e inteligência colaborativa. Liderança com escuta ativa. Cuidar das pessoas dentro e ao redor da empresa. Incluir vozes diversas e fortalecer vínculos de confiança.",
     color: "from-accent to-accent/80",
   },
   {
     icon: Leaf,
     title: "Harmonia com a Natureza",
-    description: "Decisões alinhadas aos ciclos naturais e regenerativos.",
+    description: "Decisões alinhadas aos ciclos naturais e regenerativos. Respeito pelo tempo e pelo território. Tomar decisões com consciência ecológica, honrando os ritmos da natureza.",
     color: "from-muted to-muted/80",
   },
 ];
@@ -53,10 +53,15 @@ export default function WhatIsSection() {
             }`}
           >
             <p className="text-xl md:text-2xl text-foreground/80">
-              Uma filosofia viva: adaptável, humana, conectada à natureza.
+              A NeoGovernança é uma <strong>filosofia viva</strong>: adaptável, humana, conectada à natureza.
+            </p>
+            <p className="text-lg md:text-xl text-foreground/70 mb-4">
+              Uma abordagem sistêmica para conselhos que enfrentam o impossível: crescer sem destruir, inovar sem perder propósito, lucrar sem esgotar.
             </p>
             <p className="text-2xl md:text-3xl font-display font-semibold text-foreground">
-              Não é fórmula. É consciência aplicada.
+              Não é checklist. Não é compliance.
+              <br />
+              É <span className="text-primary">consciência aplicada à liderança</span> em tempos complexos.
             </p>
           </div>
 

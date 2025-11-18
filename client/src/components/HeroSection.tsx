@@ -40,6 +40,11 @@ export default function HeroSection() {
           NeoGovernança
         </h1>
 
+        {/* Main Tagline */}
+        <p className="font-display text-2xl md:text-3xl lg:text-4xl font-semibold text-primary mb-4 md:mb-6 animate-fade-in delay-350">
+          Progresso. Conexão. Harmonia.
+        </p>
+
         {/* Tagline */}
         <p className="font-body text-base md:text-lg lg:text-xl text-muted-foreground mb-6 md:mb-8 max-w-2xl mx-auto italic animate-fade-in delay-400">
           Em equilíbrio, tudo gira. Em rigidez, tudo quebra.
