@@ -1,3 +1,4 @@
+import Navigation from "@/components/Navigation";
 import HeroSection from "@/components/HeroSection";
 import ContextSection from "@/components/ContextSection";
 import WhatIsSection from "@/components/WhatIsSection";
@@ -16,6 +17,7 @@ import Footer from "@/components/Footer";
 export default function Home() {
   return (
     <div className="min-h-screen">
+      <Navigation />
       <HeroSection />
       <ContextSection />
       <WhatIsSection />
