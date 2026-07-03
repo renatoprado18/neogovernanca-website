@@ -1,3 +1,5 @@
+import { Link } from "wouter";
+
 export default function Footer() {
   const currentYear = new Date().getFullYear();
 
@@ -15,10 +17,18 @@ export default function Footer() {
             Renato de Faria e Almeida Prado
           </p>
 
-          {/* Tagline */}
-          <p className="text-sm text-primary-foreground/80 italic">
-            Em equilíbrio, tudo gira.
-          </p>
+          {/* Links */}
+          <div className="flex items-center gap-4 text-sm">
+            <Link
+              href="/privacidade"
+              className="text-primary-foreground/80 hover:text-primary-foreground underline-offset-4 hover:underline transition-colors"
+            >
+              Política de Privacidade
+            </Link>
+            <span className="text-primary-foreground/80 italic hidden md:inline">
+              Em equilíbrio, tudo gira.
+            </span>
+          </div>
         </div>
       </div>
     </footer>
