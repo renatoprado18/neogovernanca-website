@@ -1,12 +1,18 @@
 import { useState, useEffect } from "react";
 import { Menu, X } from "lucide-react";
+import { useLocation } from "wouter";
 import { Button } from "@/components/ui/button";
 
-const navItems = [
+type NavItem = {
+  label: string;
+  href: string;
+};
+
+const navItems: NavItem[] = [
   { label: "Início", href: "#hero" },
   { label: "O que é", href: "#what-is" },
   { label: "Três Eixos", href: "#three-pillars" },
-  { label: "Filosofias", href: "#philosophies" },
+  { label: "Manifesto", href: "/manifesto" },
   { label: "Sobre o Autor", href: "#author" },
   { label: "Contato", href: "#contato" },
 ];
@@ -14,6 +20,7 @@ const navItems = [
 export default function Navigation() {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const [location, setLocation] = useLocation();
 
   useEffect(() => {
     const handleScroll = () => {
@@ -24,11 +31,25 @@ export default function Navigation() {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
-  const scrollToSection = (href: string) => {
-    const element = document.querySelector(href);
-    if (element) {
-      element.scrollIntoView({ behavior: "smooth" });
-      setIsMobileMenuOpen(false);
+  const handleNavClick = (href: string) => {
+    setIsMobileMenuOpen(false);
+
+    // Rota (começa com /) — usa wouter
+    if (href.startsWith("/")) {
+      setLocation(href);
+      return;
+    }
+
+    // Âncora (#...) — se não estivermos na home, navega pra home + âncora
+    if (href.startsWith("#")) {
+      if (location !== "/") {
+        setLocation("/" + href);
+        return;
+      }
+      const element = document.querySelector(href);
+      if (element) {
+        element.scrollIntoView({ behavior: "smooth" });
+      }
     }
   };
 
@@ -44,7 +65,7 @@ export default function Navigation() {
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
           <button
-            onClick={() => scrollToSection("#hero")}
+            onClick={() => handleNavClick(location === "/" ? "#hero" : "/")}
             className="flex items-center gap-3 hover:opacity-80 transition-opacity"
           >
             <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center">
@@ -63,7 +84,7 @@ export default function Navigation() {
               <Button
                 key={item.href}
                 variant="ghost"
-                onClick={() => scrollToSection(item.href)}
+                onClick={() => handleNavClick(item.href)}
                 className="font-body text-sm hover:text-primary transition-all duration-300 hover:scale-105"
               >
                 {item.label}
@@ -94,7 +115,7 @@ export default function Navigation() {
                 <Button
                   key={item.href}
                   variant="ghost"
-                  onClick={() => scrollToSection(item.href)}
+                  onClick={() => handleNavClick(item.href)}
                   className="font-body text-left justify-start hover:text-primary transition-colors"
                 >
                   {item.label}
