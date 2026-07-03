@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Link } from "wouter";
-import { Calendar, Linkedin, Mail, Phone } from "lucide-react";
+import { Linkedin, Mail, Phone } from "lucide-react";
 import { useForm, type FieldValues, type Resolver } from "react-hook-form";
 import { z } from "zod";
 import { toast } from "sonner";
@@ -26,14 +26,7 @@ import {
 } from "@/components/ui/form";
 import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 
-// NOTE: Link do Calendly é placeholder — Renato precisa configurar o evento
-// definitivo em https://calendly.com/renato-almeida-prado/diagnostico
-const CALENDLY_URL =
-  "https://calendly.com/renato-almeida-prado/diagnostico";
-
-// NOTE: E-mail de destino é placeholder — precisa existir de fato antes do
-// lançamento. Alternativa: usar renato@almeida-prado.com se preferir.
-const CONTATO_EMAIL = "contato@neogovernanca.com.br";
+const CONTATO_EMAIL = "renato@almeida-prado.com";
 
 const FATURAMENTO_OPCOES = [
   "Menos de R$50M",
@@ -185,25 +178,6 @@ export default function ContactSection() {
             conselho está travando e o que pode destravar nos próximos 90 dias.
           </p>
 
-          {/* CTA Primário: Calendly */}
-          <div
-            className={`flex justify-center mb-12 transition-all duration-1000 delay-150 ${
-              isVisible
-                ? "opacity-100 translate-y-0"
-                : "opacity-0 translate-y-10"
-            }`}
-          >
-            <Button
-              size="lg"
-              variant="secondary"
-              className="w-full sm:w-auto gap-3 text-base md:text-lg font-semibold hover-lift transition-smooth group px-8 py-6"
-              onClick={() => window.open(CALENDLY_URL, "_blank", "noopener")}
-            >
-              <Calendar className="w-6 h-6 group-hover:scale-110 transition-transform" />
-              Agendar diagnóstico gratuito
-            </Button>
-          </div>
-
           {/* Formulário */}
           <div
             className={`rounded-2xl bg-primary-foreground/95 text-foreground p-6 md:p-10 shadow-2xl transition-all duration-1000 delay-200 ${
@@ -214,7 +188,7 @@ export default function ContactSection() {
           >
             <div className="mb-6">
               <h3 className="font-display text-xl md:text-2xl font-semibold mb-1">
-                Prefere que a gente entre em contato?
+                Entre em contato
               </h3>
               <p className="text-sm md:text-base text-muted-foreground">
                 Preencha os campos abaixo. Retornamos em até 2 dias úteis.

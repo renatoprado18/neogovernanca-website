@@ -4,9 +4,7 @@ import { ChevronLeft } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import Footer from "@/components/Footer";
 
-// NOTE: Contato do controlador/DPO é placeholder — Renato deve confirmar
-// se o e-mail definitivo será contato@neogovernanca.com.br ou outro.
-const CONTROLADOR_EMAIL = "contato@neogovernanca.com.br";
+const CONTROLADOR_EMAIL = "renato@almeida-prado.com";
 const VIGENCIA = "3 de julho de 2026";
 
 export default function Privacidade() {
@@ -121,12 +119,11 @@ export default function Privacidade() {
               <p>
                 Não compartilhamos, vendemos ou cedemos dados pessoais a
                 terceiros, exceto para operadores legítimos que suportam a
-                nossa comunicação com o titular (por exemplo, ferramenta de
-                agendamento Calendly e provedor de e-mail), todos contratados
-                com obrigações contratuais de sigilo, segurança da informação
-                e conformidade com a LGPD. Poderemos também compartilhar dados
-                em cumprimento de obrigação legal, regulatória ou ordem
-                judicial.
+                nossa comunicação com o titular (por exemplo, provedor de
+                e-mail), todos contratados com obrigações contratuais de
+                sigilo, segurança da informação e conformidade com a LGPD.
+                Poderemos também compartilhar dados em cumprimento de
+                obrigação legal, regulatória ou ordem judicial.
               </p>
             </section>
 
