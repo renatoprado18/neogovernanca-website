@@ -29,7 +29,7 @@ export default function ContactSection() {
           {/* Urgency Statement */}
           <div className="bg-primary-foreground/10 border border-primary-foreground/20 rounded-lg p-6 md:p-8 max-w-3xl mx-auto mb-12">
             <p className="text-lg md:text-xl text-primary-foreground/90 text-center mb-4">
-              Conselhos que adotam NeoGovernança reportam <strong className="text-2xl font-display">34% mais alinhamento</strong> entre board e C-suite no primeiro ano.
+              Conselhos que adotam NeoGovernança constroem alinhamento mais rápido entre board e C-suite — e transformam decisões em ciclos de progresso, conexão e harmonia.
             </p>
             <p className="text-base md:text-lg text-primary-foreground/70 text-center">
               Quanto custa esperar mais um ano?
