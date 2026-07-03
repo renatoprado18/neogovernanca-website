@@ -8,7 +8,7 @@ const navItems = [
   { label: "Três Eixos", href: "#three-pillars" },
   { label: "Filosofias", href: "#philosophies" },
   { label: "Sobre o Autor", href: "#author" },
-  { label: "Contato", href: "#contact" },
+  { label: "Contato", href: "#contato" },
 ];
 
 export default function Navigation() {

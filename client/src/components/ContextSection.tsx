@@ -21,8 +21,7 @@ export default function ContextSection() {
           
           <div className="bg-card-foreground/10 border border-card-foreground/20 rounded-lg p-6 md:p-8 max-w-2xl mx-auto mb-8 md:mb-12">
             <p className="text-base md:text-lg text-card-foreground/90 text-center">
-              <strong className="text-xl md:text-2xl font-display block mb-2">87%</strong>
-              dos CEOs globais afirmam que seus conselhos não estão preparados para as próximas disrupções.
+              A maioria dos conselhos foi desenhada para um mundo que já não existe — e não está preparada para as próximas disrupções.
             </p>
           </div>
 

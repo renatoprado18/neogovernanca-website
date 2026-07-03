@@ -97,7 +97,7 @@ export default function ThreePillarsInPractice() {
                         {practice.example}
                       </p>
                       <p className="text-sm md:text-base text-primary-foreground/70 italic">
-                        Exemplo: {practice.case}
+                        Cenário ilustrativo: {practice.case}
                       </p>
                     </div>
                   </div>
