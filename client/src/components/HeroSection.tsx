@@ -35,6 +35,13 @@ export default function HeroSection() {
           />
         </div>
 
+        {/* Audience Badge */}
+        <div className="mb-4 md:mb-6 flex justify-center animate-fade-in delay-250">
+          <span className="inline-block text-[11px] md:text-xs font-medium uppercase tracking-[0.18em] text-muted-foreground/80 border border-border/70 rounded-full px-4 py-1.5 bg-background/40 backdrop-blur-sm">
+            Para conselhos, sócios e presidentes de empresas de R$50M a R$500M
+          </span>
+        </div>
+
         {/* Brand Name */}
         <h1 className="font-display text-4xl md:text-6xl lg:text-8xl font-bold text-foreground mb-3 md:mb-4 animate-fade-in-up delay-300">
           NeoGovernança
