@@ -38,7 +38,7 @@ export default function AuthorSection() {
                   Renato de Faria e Almeida Prado
                 </h3>
                 <p className="text-xl text-secondary-foreground/90 mb-6">
-                  Conselheiro do Futuro | AI Thinker | Co-fundador 10XMentorAI
+                  Conselheiro do Futuro | AI Thinker
                 </p>
               </div>
 

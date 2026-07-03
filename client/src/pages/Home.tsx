@@ -8,7 +8,6 @@ import TripartiteGyroscopeSection from "@/components/TripartiteGyroscopeSection"
 import EtymologySection from "@/components/EtymologySection";
 import PhilosophiesSection from "@/components/PhilosophiesSection";
 import AuthorSection from "@/components/AuthorSection";
-import TestimonialsSection from "@/components/TestimonialsSection";
 import ComparisonSection from "@/components/ComparisonSection";
 import AISection from "@/components/AISection";
 import ContactSection from "@/components/ContactSection";
@@ -29,7 +28,6 @@ export default function Home() {
       <ComparisonSection />
       <AISection />
       <AuthorSection />
-      <TestimonialsSection />
       <ContactSection />
       <Footer />
     </div>

@@ -1,20 +1,7 @@
-import { Bot, Brain, ExternalLink } from "lucide-react";
+import { Brain, ExternalLink } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const platforms = [
-  {
-    icon: Bot,
-    name: "10XMentorAI",
-    description:
-      "Mentoria contínua para líderes aplicarem os três eixos da NeoGovernança com suporte de agentes de IA treinados para o boardroom.",
-    features: [
-      "Mentoria personalizada 24/7",
-      "Agentes treinados em governança",
-      "Aplicação prática dos 3 pilares",
-    ],
-    url: "https://10xmentor.ai",
-    color: "from-blue-500 to-cyan-500",
-  },
   {
     icon: Brain,
     name: "imensIAH",
@@ -44,7 +31,7 @@ export default function AISection() {
           </p>
 
           {/* Platforms Grid */}
-          <div className="grid md:grid-cols-2 gap-8 mb-16">
+          <div className="grid gap-8 mb-16 max-w-2xl mx-auto">
             {platforms.map((platform, index) => {
               const Icon = platform.icon;
               return (
