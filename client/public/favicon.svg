@@ -1,15 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
-  <style>
-    .outer { stroke: #1e293b; }
-    .red { stroke: #a83e3a; }
-    .teal { stroke: #2d5e6b; }
-    @media (prefers-color-scheme: dark) {
-      .outer { stroke: #e2e8f0; }
-    }
-  </style>
-  <g fill="none" stroke-width="2" stroke-linecap="round">
-    <circle class="outer" cx="16" cy="16" r="12"/>
-    <ellipse class="red" cx="16" cy="16" rx="4" ry="10" transform="rotate(30 16 16)"/>
-    <ellipse class="teal" cx="16" cy="16" rx="4" ry="10" transform="rotate(-30 16 16)"/>
-  </g>
+  <circle cx="16" cy="16" r="14" fill="none" stroke="#b9952e" stroke-width="2"/>
+  <path fill="#1e3d45" d="M 16 16 A 7 7 0 0 0 16 2 A 14 14 0 0 1 28.12 23 A 7 7 0 0 1 16 16 Z"/>
+  <path fill="#1a2326" transform="rotate(120 16 16)" d="M 16 16 A 7 7 0 0 0 16 2 A 14 14 0 0 1 28.12 23 A 7 7 0 0 1 16 16 Z"/>
+  <path fill="#5c0817" transform="rotate(240 16 16)" d="M 16 16 A 7 7 0 0 0 16 2 A 14 14 0 0 1 28.12 23 A 7 7 0 0 1 16 16 Z"/>
 </svg>
