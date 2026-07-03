@@ -7,7 +7,7 @@ export default function ContactSection() {
 
   return (
     <section
-      id="contact"
+      id="contato"
       ref={ref as React.RefObject<HTMLElement>}
       className="relative py-20 md:py-32 bg-gradient-to-br from-primary via-primary to-secondary text-primary-foreground overflow-hidden"
     >
